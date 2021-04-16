@@ -9,7 +9,7 @@ const MainPage = () => {
     const history = useHistory()
 
     const onClickHandler = React.useCallback((city, countryCode) => {
-        history.push(`/city/${countryCode}/${city}`)
+        history.push(`/weather_app/city/${countryCode}/${city}`)
     }, [history])
 
     return (

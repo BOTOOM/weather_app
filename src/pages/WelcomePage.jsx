@@ -35,7 +35,7 @@ const WelcomePage = () => {
                             <Link color="inherit"
                                 aria-label="menu"
                                 component={RouterLink}
-                                to="/main">
+                                to="/weather_app/main">
                                 Ingresar
                             </Link>
                         </Grid>

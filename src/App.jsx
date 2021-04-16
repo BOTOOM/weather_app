@@ -13,13 +13,13 @@ const App = () => {
         <WeatherContext>
             <Router>
                 <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/weather_app">
                         <WelcomePage />
                     </Route>
-                    <Route path="/main">
+                    <Route path="/weather_app/main">
                         <MainPage />
                     </Route>      
-                    <Route path="/city/:countryCode/:city">
+                    <Route path="/weather_app/city/:countryCode/:city">
                         <CityPage />
                     </Route> 
                     <Route>
